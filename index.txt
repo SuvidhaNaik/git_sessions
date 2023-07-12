@@ -1,0 +1,31 @@
+1. Which class is used to create a directory in Java? 
+This is tricky because there is no Directory class, File class is used to create both file and directory in Java. 
+
+2. What is the difference between BufferedReader and FileReader in Java? 
+BufferedReader is a Decorator that provides buffering for faster IO, while FileReader is used to read data from File.
+
+3.What is a Marker Interface?
+An empty interface in Java is referred to as a Marker interface. Serializable and Cloneable are some famous examples of Marker Interface.
+
+4.What is Object Cloning?
+An ability to recreate an object entirely similar to an existing object is known as Object Cloning in Java. Java provides a clone() method to clone a current object offering the same functionality as the original object.
+
+5.Define Wrapper Classes in Java.
+In Java, when you declare primitive datatypes, then Wrapper classes are responsible for converting them into objects(Reference types). 
+
+6. What is a singleton class in Java? And How to implement a singleton class?
+A class that can possess only one object at a time is called a singleton class.
+
+7.Define package in Java.
+The package is a collective bundle of classes and interfaces and the necessary libraries and JAR files. The use of packages helps in code reusability.
+
+8.Can you implement pointers in a Java Program?
+Java Virtual Machine takes care of memory management implicitly. Java's primary motto was to keep programming simple. So, accessing memory directly through pointers is not a recommended action. Hence, pointers are eliminated in Java. 
+
+9.What is the final keyword in Java?
+The term final is a predefined word in Java that is used while declaring values to variables. When a value is declared using the final keyword, then the variable's value remains constant throughout the program's execution.
+
+10.What happens when the main() isn't declared as static?
+When the main method is not declared as static, then the program may be compiled correctly but ends up with a severe ambiguity and throws a run time error that reads "NoSuchMethodError."
+
+
