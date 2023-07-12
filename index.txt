@@ -28,4 +28,9 @@ The term final is a predefined word in Java that is used while declaring values 
 10.What happens when the main() isn't declared as static?
 When the main method is not declared as static, then the program may be compiled correctly but ends up with a severe ambiguity and throws a run time error that reads "NoSuchMethodError."
 
+11.Why does the java array index start with 0?
+The distance from the array's beginning is just an offset. There is no distance because the first element is at the beginning of the array.
+
+
+
 
